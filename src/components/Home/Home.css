@@ -5,6 +5,7 @@
   align-items: center;
   flex-wrap: wrap-reverse;
   position: relative;
+  margin-top: 80px;
 }
 
 .home-text{
@@ -41,7 +42,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.8;
   background: rgba(0, 0, 0, 0.2);
   position: relative;
 }
@@ -153,4 +153,14 @@
 .img-box .hire-me:hover{
   letter-spacing: 0.2rem;
   box-shadow: 0 0 10px #fff;
+}
+
+/* Responsive */
+@media (max-width: 865px) {
+  #home{
+    justify-content: center;
+  }
+  .home-text{
+    max-width: none;
+  }
 }

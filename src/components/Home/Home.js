@@ -8,7 +8,7 @@ const Home = () => {
       <div className="home-text">
         <strong>Hello, it's me</strong>
         <h1>Pankti Shah</h1>
-        <p>I am a software engineer, Full stack developer</p>
+        <p>I am a software engineer, full stack developer</p>
         <a href="#summary" className='btn-link'>Scroll For me</a>
       </div>
 

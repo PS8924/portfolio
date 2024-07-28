@@ -7,11 +7,19 @@
   --blueColor: #689af8;
 }
 
+/* :root{
+  --bgColor: #fdfdfd;
+  --whiteColor: #000;
+  --grayColor: #bbb;
+  --blueColor: #689af8;
+} */
+
 *{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body{
@@ -25,7 +33,6 @@ body{
   width: 100%;
   max-width: 1024px;
   min-height: 100vh;
-  /* background: wheat; */
   position: absolute;
   top: 0;
   left: 50%;
@@ -67,4 +74,8 @@ ul{
 h3{
   font-size: 3rem;
   letter-spacing: 2px;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
