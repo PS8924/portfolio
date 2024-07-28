@@ -28,14 +28,14 @@ const Career = () => {
 
   const educations = [
     {
-      title: "Front-end Developer",
-      name: "Software",
-      year: "2018 - 2020"
+      title: "Masters of science, Information systems",
+      name: "Northeastern University",
+      year: "2021-2023"
     },
     {
-      title: "Back-end Developer",
-      name: "Software",
-      year: "2018 - 2020"
+      title: "Bachlors of engineering, Computer science",
+      name: "GTU",
+      year: "2010 - 2014"
     }
   ]
 
@@ -73,12 +73,6 @@ const Career = () => {
             }
           </div>
         </div>
-      </div>
-
-      <div className="btn-c">
-        <a href={pankticv} download className='btn-link'>
-          Get CV <i className="fa-solid fa-download"></i>
-        </a>
       </div>
     </section>
   )

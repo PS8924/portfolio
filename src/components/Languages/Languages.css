@@ -1,9 +1,10 @@
 #languages{
   width: 100%;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 30px; */
   position: relative;
+  margin: 40px 0;
 }
 
 .languages-box h3{
@@ -17,12 +18,26 @@
   background: rgba(0, 0, 0, 0.08);
   padding: 10px 15px;
   margin-top: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .languages-box ul li{
   color: var(--grayColor);
-  margin-right: 15px;
-  margin-top: 4px;
+  margin: 15px;
+  text-align: center;
+}
+
+/* .languages-box ul li:hover{
+  text-shadow: 0 0 10px #fff;
+} */
+
+.languages-box ul li img{
+  width: 80px;
+}
+
+.languages-box ul li h3{
+  text-align: center;
 }
 
 /* Responsive */

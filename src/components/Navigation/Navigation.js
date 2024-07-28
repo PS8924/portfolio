@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navigation.css';
+import { linkedin, github } from '../../constants';
 
 const Navigation = () => {
 
@@ -17,10 +18,10 @@ const Navigation = () => {
       </div>
       <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
         <li><a href='#career' onClick={toggleMenu}>Work</a></li>
-        <li><a href='#about' onClick={toggleMenu}>About</a></li>
+        <li><a href='#languages' onClick={toggleMenu}>Skills</a></li>
         <li><a href='#contact' onClick={toggleMenu}>Contact</a></li>
-        <li><a href='#' onClick={toggleMenu}>LinkedIn</a></li>
-        <li><a href='#' onClick={toggleMenu}>GitHub</a></li>
+        <li><a href={linkedin} target="_blank" onClick={toggleMenu}><i className="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href={github} target="_blank" onClick={toggleMenu}><i className="fa-brands fa-square-github"></i></a></li>
       </ul>
     </nav>
   )

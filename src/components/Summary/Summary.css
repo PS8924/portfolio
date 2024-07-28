@@ -3,11 +3,16 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin: 40px 0;
 }
 
 .summary-heading{
   width: 100%;
-  max-width: 470px;
+  max-width: 530px;
+}
+
+.summary-heading h4{
+  font-size: 20px;
 }
 
 .summary-heading strong{
@@ -25,12 +30,12 @@
 
 .summary-details{
   width: 100%;
-  max-width: 470px;
+  max-width: 530px;
   padding: 15px 20px;
-  border: 1px dashed var(--grayColor);
 }
 
 .summary-details p{
   color: var(--grayColor);
   font-size: 1rem;
+  line-height: 30px;
 }
