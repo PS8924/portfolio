@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy portfolio to GitHub Pages
 
 on:
   push:
@@ -24,7 +24,8 @@ jobs:
     - name: Build the project
       run: npm run build
 
-    - name: Deploy to GitHub Pages
-      run: npm run deploy
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
