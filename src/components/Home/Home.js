@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '../../assests/images/Avatar.png';
+import Avatar from '../../assests/images/2.jpg';
 import './Home.css';
 import { linkedin, github } from '../../constants';
 
@@ -32,7 +32,7 @@ const Home = () => {
       <div className="home-text">
         <strong>Hi, It's me</strong>
         <h1>Pankti Shah</h1>
-        <p>I am a software engineer, full stack developer</p>
+        <p>I build web and mobile applications with deployments on cloud platfrom.</p>
         <a href="#summary" className='btn-link'>Scroll For me</a>
       </div>
     </section>

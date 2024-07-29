@@ -1,3 +1,7 @@
+#career{
+  padding: 60px 0 40px 0;
+}
+
 .career-education{
   width: 100%;
   display: flex;
@@ -60,6 +64,16 @@
 .btn-c{
   text-align: center;
   margin-top: 50px;
+}
+
+.vertical-timeline-element-title{
+  font-size: 18px !important;
+}
+
+.work-timeline li{
+  list-style: circle;
+  padding: 5px 0;
+  line-height: 28px;
 }
 
 @media (max-width: 600px) {

@@ -113,8 +113,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--bgColor);
-  color: white;
-  padding: 0.5rem 2rem;
+  color: var(--whiteColor);
+  padding: 0.5rem 4rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -124,7 +124,7 @@
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #fff;
+  color: var(--whiteColor);
   text-decoration: none;
 }
 
@@ -151,7 +151,7 @@
 }
 
 .nav-menu li a:hover {
-  background-color: #575757;
+  /* background-color: #575757; */
   border-radius: 4px;
 }
 
@@ -178,9 +178,16 @@
 
   .nav-menu.active {
     display: flex;
+
+    /* display: flex;
+    max-width: 173px;
+    height: 242px;
+    border: 1px solid;
+    margin-top: 15px; */
   }
 
   .nav-menu li {
     padding: 1rem 0;
+    /* padding: 10px 0; */
   }
 }

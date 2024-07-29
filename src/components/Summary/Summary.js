@@ -6,10 +6,10 @@ const Summary = () => {
   return(
     <section id="summary">
       <div className="summary-heading">
-        <strong><h3>Experties</h3></strong>
-        <h4>Web development</h4>
-        <h4>React native development</h4>
-        <h4>Backend development</h4>
+        <strong><h3>Expertise</h3></strong>
+        <h4>Web Development</h4>
+        <h4>React native Development</h4>
+        <h4>Backend Development</h4>
         <a href={pankticv} download className='btn-link'>
           Get CV <i class="fa-solid fa-download"></i>
         </a>

@@ -46,14 +46,14 @@
   position: relative;
 }
 
-.home-img::before{
+/* .home-img::before{
   content: '';
   position: absolute;
   inset: -10px 140px;
   background: linear-gradient(315deg, #00ccff, #d400d4);
   transition: 0.5s;
   animation: animate 4s linear infinite;
-}
+} */
 
 .home-img:hover::before{
   inset: -20px 0;
@@ -69,14 +69,14 @@
   }
 }
 
-.home-img::after{
+/* .home-img::after{
   content: '';
   position: absolute;
   inset: 6px;
   background: rgb(22, 32, 82);
   border-radius: 50%;
   z-index: 1;
-}
+} */
 
 .img-box{
   position: absolute;

@@ -4,7 +4,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px; */
   position: relative;
-  margin: 40px 0;
+  padding: 60px 0 40px 0;
 }
 
 .languages-box h3{
@@ -33,11 +33,12 @@
 } */
 
 .languages-box ul li img{
-  width: 80px;
+  width: 60px;
 }
 
 .languages-box ul li h3{
   text-align: center;
+  font-size: 18px;
 }
 
 /* Responsive */
