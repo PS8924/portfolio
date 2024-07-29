@@ -163,4 +163,12 @@
   .home-text{
     max-width: none;
   }
+  .home-img{
+    margin-top:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-text h1{
+    font-size: 2rem; }
 }

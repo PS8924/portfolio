@@ -163,12 +163,16 @@
   .menu-icon {
     display: block;
   }
+
+  .logo {
+    font-size: 18px;
+  }
   
   .nav-menu {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 50px;
+    top: 35px;
     right: 0;
     width: 100%;
     background-color: var(--bgColor);
@@ -178,16 +182,13 @@
 
   .nav-menu.active {
     display: flex;
-
-    /* display: flex;
-    max-width: 173px;
-    height: 242px;
-    border: 1px solid;
-    margin-top: 15px; */
+    height: 200px;
+    /* max-width: 173px;
+    border: 1px solid; */
+    padding: 0.5rem;
   }
 
   .nav-menu li {
-    padding: 1rem 0;
-    /* padding: 10px 0; */
+    padding: 5px 0;
   }
 }
