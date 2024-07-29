@@ -13,7 +13,7 @@ import Progress from "./components/Progress/Progress";
 const App = () =>{
   return (
     <>
-      <Theme />
+      {/* <Theme /> */}
       <Progress />
         <div className="wrapper">
           <Navigation/>
