@@ -12,7 +12,16 @@ const CareerCard = ({experience}) =>{
       contentStyle={{ background: 'rgba(33, 150, 243, 0.28)', color: '#fff' }}
       contentArrowStyle={{ borderRight: '7px solid  rgba(33, 150, 243, 0.28)' }}
       date={experience.date}
-      iconStyle={{ background: 'rgba(33, 150, 243,0.28)', color: '#fff' }}
+      iconStyle={{ background: '#fff', color: '#fff' }}
+      icon={
+        <div className="career-icon-warp">
+          <img
+            src={experience.icon}
+            alt={experience.company_name}
+            className="career-icon"
+          />
+        </div>
+      }
     >
       <h3 className="vertical-timeline-element-title">{experience.title}</h3>
       <h4 className="vertical-timeline-element-subtitle">{experience.company_name}</h4>

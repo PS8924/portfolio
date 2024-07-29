@@ -14,6 +14,8 @@ import typescript from '../assests/images/tech/typescript.png';
 import redux from '../assests/images/tech/redux.png';
 import springboot from '../assests/images/tech/springboot.png';
 import python from '../assests/images/tech/python.png';
+import work from '../assests/images/work.png';
+import student from '../assests/images/student.png';
 
 const technologies = [
   {
@@ -92,7 +94,7 @@ const workdetails = [
     title: "Software Engineer",
     company_name: "Abecedarian, LLC.",
     location: "Remote, USA",
-    // icon: hubspot,
+    icon: work,
     iconBg: "#E6DEDD",
     date: "March 2024 - Present",
     points: ["Leading the development of front-end Humanitarians AI, Building user interfaces using ReactJS, TypeScript, Material UI ensuring seamless integration with Figma prototypes.",
@@ -103,7 +105,7 @@ const workdetails = [
     title: "Full-stack developer co-op",
     company_name: "STAT health Inc.",
     location: "Boston, MA",
-    // icon: paypal,
+    icon: work,
     iconBg: "#E6DEDD",
     date: "June 2020 - Dec 2021",
     points: [
@@ -117,7 +119,7 @@ const workdetails = [
     title: "Master of science, Information systems",
     company_name: "Northeastern University",
     location: "Boston, MA, USA",
-    // icon: dell,
+    icon: student,
     iconBg: "#E6DEDD",
     date: "Sep 2021 - Dec 2023",
     points: [
@@ -128,7 +130,7 @@ const workdetails = [
     title: "Software Engineer",
     company_name: "Atyantik Technologies",
     location: "Vadodara, India",
-    // icon: dell,
+    icon: work,
     iconBg: "#E6DEDD",
     date: "Feb 2020 - Aug 2021",
     points: [
@@ -143,7 +145,7 @@ const workdetails = [
     title: "Software Engineer",
     company_name: "Novumlogic",
     location: "Vadodara, India",
-    // icon: dell,
+    icon: work,
     iconBg: "#E6DEDD",
     date: "Apr 2018 - Jan 2020",
     points: [
@@ -159,7 +161,7 @@ const workdetails = [
     title: "Front end developer",
     company_name: "Siya Technologies",
     location: "Vadodara, India",
-    // icon: dell,
+    icon: work,
     iconBg: "#E6DEDD",
     date: "Nov 2016 - Jan 2018",
     points: [
@@ -171,7 +173,7 @@ const workdetails = [
     title: "Web Developer",
     company_name: "Bonafide Research and marketing Pvt Ltd",
     location: "Vadodara, India",
-    // icon: dell,
+    icon: work,
     iconBg: "#E6DEDD",
     date: "Apr 2015 - Dec 2015",
     points: [
@@ -183,7 +185,7 @@ const workdetails = [
     title: "Bachelor of engineering, computer science",
     company_name: "Gujarat Technological University",
     location: "Vadodara, India",
-    // icon: dell,
+    icon: student,
     iconBg: "#E6DEDD",
     date: "June 2010 - June 2014",
     points: [
