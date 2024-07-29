@@ -12,7 +12,7 @@ const Navigation = () => {
 
   return (
     <nav className='navigation'>
-      <a href="#!" className='logo'>Pankti | Software Engineer</a>
+      <a href="https://ps8924.github.io/portfolio/" className='logo'>Pankti | Software Engineer</a>
       <div className='menu-icon' onClick={toggleMenu}>
         {isOpen ? <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-bars"></i>}
       </div>
