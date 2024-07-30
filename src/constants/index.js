@@ -107,7 +107,7 @@ const workdetails = [
     location: "Boston, MA",
     icon: work,
     iconBg: "#E6DEDD",
-    date: "June 2020 - Dec 2021",
+    date: "June 2022 - Dec 2022",
     points: [
       "Automated manual process via user management Node.js microservices, integrating multi-device user registration through AWS Cognito, Amplify, DynamoDB, S3, Lambda, GitHub Actions. Achieved 60% improved efficiency and scalability",
       "Worked closely with product manager at a startup to develop a mobile application for visualizing data, collected by the discreet in-ear wearable device. Employed React Native, TypeScript for intuitive, engaging real-time user interfaces (UI)",
