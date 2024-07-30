@@ -167,6 +167,10 @@
   .logo {
     font-size: 18px;
   }
+
+  .navigation {
+    padding: 0.5rem 1rem;
+  }
   
   .nav-menu {
     display: none;

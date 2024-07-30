@@ -17,9 +17,9 @@ const Summary = () => {
 
       <div className="summary-details">
         <p>
-          I specialize in building data-intensive web products that offer the best user experience and maximize business value. With extensive experience in JavaScript (ES6), TypeScript, Angular, React, and Node.js, I can code your ideas to life. I am versatile and collaborate closely with clients to create efficient, scalable, and user-friendly web products that solve real-world problems.
+          Passionate about developing data-rich web products by enhancing user experience and boosting business value. With extensive skills in JavaScript (ES6), TypeScript, React, Node.js, AWS and microservice architecture, I ensure applications are scalable and reliable, driving business growth. I collaborate with stakeholders to deliver efficient, user-centric solutions. 
         </p>
-        <p>Let's chat!</p>
+        <p>Let’s discuss how we can make your ideas a reality!</p>
       </div>
     </section>
   )

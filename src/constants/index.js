@@ -128,7 +128,7 @@ const workdetails = [
   },
   {
     title: "Software Engineer",
-    company_name: "Atyantik Technologies",
+    company_name: "Atyantik Technologies pvt ltd.",
     location: "Vadodara, India",
     icon: work,
     iconBg: "#E6DEDD",
@@ -143,7 +143,7 @@ const workdetails = [
   },
   {
     title: "Software Engineer",
-    company_name: "Novumlogic",
+    company_name: "Novumlogic technologies pvt ltd.",
     location: "Vadodara, India",
     icon: work,
     iconBg: "#E6DEDD",
