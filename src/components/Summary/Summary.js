@@ -17,7 +17,7 @@ const Summary = () => {
 
       <div className="summary-details">
         <p>
-          Passionate about developing data-rich web products by enhancing user experience and boosting business value. With extensive skills in JavaScript (ES6), TypeScript, React, Node.js, AWS and microservice architecture, I ensure applications are scalable and reliable, driving business growth. I collaborate with stakeholders to deliver efficient, user-centric solutions. 
+          Passionate about developing stateful and event-driven data-rich web products by enhancing user experience and boosting business value. With extensive skills in JavaScript (ES6), TypeScript, React, Node.js, AWS and microservice architecture, I ensure applications are scalable and reliable, driving business growth. I collaborate with stakeholders to deliver efficient, user-centric solutions. 
         </p>
         <p>Let’s discuss how we can make your ideas a reality!</p>
       </div>

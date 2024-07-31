@@ -92,7 +92,7 @@ const emailid = 'shahpankti1188@gmail.com';
 const workdetails = [
   {
     title: "Software Engineer",
-    company_name: "Abecedarian, LLC.",
+    company_name: "Bear Brown & Co.",
     location: "Remote, USA",
     icon: work,
     iconBg: "#E6DEDD",
