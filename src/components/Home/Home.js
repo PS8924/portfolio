@@ -35,7 +35,7 @@ const Home = () => {
         <h1>Pankti Shah</h1>
         <p>I build web and mobile applications with deployments on cloud platfrom.</p>
         <a href="#summary" className='btn-link'>Scroll For me</a>
-        <a href={pankticv} download className='btn-link cv'>
+        <a href={pankticv} target="_blank" className='btn-link cv'>
           Get CV <i class="fa-solid fa-download"></i>
         </a>
       </div>

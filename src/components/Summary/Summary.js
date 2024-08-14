@@ -10,7 +10,7 @@ const Summary = () => {
         <h4>Web Development</h4>
         <h4>React native Development</h4>
         <h4>Backend Development</h4>
-        <a href={pankticv} download className='btn-link'>
+        <a href={pankticv} target="_blank" className='btn-link'>
           Get CV <i class="fa-solid fa-download"></i>
         </a>
       </div>
