@@ -2,6 +2,7 @@ import React from 'react';
 import Avatar from '../../assests/images/2.jpg';
 import './Home.css';
 import { linkedin, github } from '../../constants';
+import pankticv from '../../assests/cv/pankti_cv.pdf';
 
 const Home = () => {
   return (
@@ -34,6 +35,9 @@ const Home = () => {
         <h1>Pankti Shah</h1>
         <p>I build web and mobile applications with deployments on cloud platfrom.</p>
         <a href="#summary" className='btn-link'>Scroll For me</a>
+        <a href={pankticv} download className='btn-link cv'>
+          Get CV <i class="fa-solid fa-download"></i>
+        </a>
       </div>
     </section>
   )

@@ -46,6 +46,10 @@
   position: relative;
 }
 
+.cv{
+  margin-left: 25px;
+}
+
 /* .home-img::before{
   content: '';
   position: absolute;

@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { workdetails } from '../../constants';
 
 const CareerCard = ({experience}) =>{
-  console.log(experience.points)
+  //console.log(experience.points)
   return(
     <VerticalTimelineElement
       className="vertical-timeline-element--work"

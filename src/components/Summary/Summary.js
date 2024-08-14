@@ -1,6 +1,6 @@
 import React from 'react';
 import './Summary.css';
-import pankticv from '../../assests/cv/pankti_cv.pdf'
+import pankticv from '../../assests/cv/pankti_cv.pdf';
 
 const Summary = () => {
   return(
